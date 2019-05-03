@@ -1,0 +1,12 @@
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\bin\Debug\CiscoCLIGuide.exe.config
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\bin\Debug\CiscoCLIGuide.exe
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\bin\Debug\CiscoCLIGuide.pdb
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csprojAssemblyReference.cache
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.oknoHlavni.resources
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.Properties.Resources.resources
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csproj.GenerateResource.cache
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csproj.CoreCompileInputs.cache
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.exe
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.pdb
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.hlavniOkno.resources
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.oknoNastaveniRS232.resources

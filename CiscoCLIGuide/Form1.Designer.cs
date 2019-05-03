@@ -1,6 +1,6 @@
 ﻿namespace CiscoCLIGuide
 {
-    partial class Form1
+    partial class oknoHlavni
     {
         /// <summary>
         /// Vyžaduje se proměnná návrháře.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // oknoHlavni
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(664, 613);
+            this.Name = "oknoHlavni";
+            this.Text = "Cisco GUI Guide";
+            this.Load += new System.EventHandler(this.oknoHlavni_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

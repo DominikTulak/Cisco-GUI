@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CiscoCLIGuide.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +11,18 @@ using System.Windows.Forms;
 
 namespace CiscoCLIGuide
 {
-    public partial class Form1 : Form
+    public partial class oknoHlavni : Form
     {
-        public Form1()
+        public oknoHlavni()
         {
             InitializeComponent();
+        }
+
+        private void oknoHlavni_Load(object sender, EventArgs e)
+        {
+            hlavniOkno ho = new hlavniOkno();
+            oknoNastaveniRS232 rs = new oknoNastaveniRS232();
+            rs.Show();
         }
     }
 }
