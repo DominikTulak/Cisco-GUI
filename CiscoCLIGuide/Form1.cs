@@ -15,6 +15,7 @@ namespace CiscoCLIGuide
         public Form1()
         {
             InitializeComponent();
+            Model.TelnetTest.Telnet(textBox1);
         }
     }
 }

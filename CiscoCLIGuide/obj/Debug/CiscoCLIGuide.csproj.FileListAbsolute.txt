@@ -1,0 +1,10 @@
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\CiscoCLIGuide.exe.config
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\CiscoCLIGuide.exe
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\CiscoCLIGuide.pdb
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csprojAssemblyReference.cache
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.Properties.Resources.resources
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csproj.GenerateResource.cache
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.exe
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.pdb
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.Form1.resources
