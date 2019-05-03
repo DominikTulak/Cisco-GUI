@@ -21,8 +21,9 @@ namespace CiscoCLIGuide
         private void oknoHlavni_Load(object sender, EventArgs e)
         {
             hlavniOkno ho = new hlavniOkno();
-            oknoNastaveniRS232 rs = new oknoNastaveniRS232();
-            rs.Show();
+            ho.Show();
+            
+
         }
     }
 }

@@ -41,8 +41,6 @@ namespace CiscoCLIGuide.View
             RS232.parita = parita;
             RS232.pocetDataBitu = databity;
             RS232.pocetStopBitu = stopbity;
-
-
         }
     }
 }

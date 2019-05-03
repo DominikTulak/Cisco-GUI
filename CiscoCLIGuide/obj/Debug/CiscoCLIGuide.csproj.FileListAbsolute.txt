@@ -10,3 +10,5 @@ C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.exe
 C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.pdb
 C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.hlavniOkno.resources
 C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.oknoNastaveniRS232.resources
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.oknoNastaveniHesla.resources
+C:\Users\TomCha\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.oknoNastaveniLogSouboru.resources
