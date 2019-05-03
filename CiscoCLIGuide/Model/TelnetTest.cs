@@ -10,6 +10,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Windows;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace CiscoCLIGuide.Model
 {
@@ -17,16 +18,21 @@ namespace CiscoCLIGuide.Model
     class TelnetTest
     {
         public static void Telnet(TextBox tb) {
-            TcpClient client = new TcpClient("tulak.host", 52556);
+            TcpClient client = new TcpClient("google.com", 23);
             StreamReader sr = new StreamReader(client.GetStream());
             StreamWriter sw = new StreamWriter(client.GetStream());
             string data = sr.ReadLine();
             while (data != null)
             {
                 tb.Text += "\n" + data;
+                MessageBox.Show(data);
+                sw.WriteLine("aaa");
                 data = sr.ReadLine();
+
             }
+            
             client.Close();
+            
         }
         
     }

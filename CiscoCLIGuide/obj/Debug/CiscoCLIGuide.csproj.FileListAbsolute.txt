@@ -1,10 +1,15 @@
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\CiscoCLIGuide.exe.config
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\CiscoCLIGuide.exe
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\CiscoCLIGuide.pdb
-C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csprojAssemblyReference.cache
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.Properties.Resources.resources
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csproj.GenerateResource.cache
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.exe
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.pdb
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.Form1.resources
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\LiteGuard.dll
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\PrimS.Telnet.NetStandard.dll
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\LiteGuard.xml
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\PrimS.Telnet.NetStandard.xml
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csprojAssemblyReference.cache
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csproj.CopyComplete
