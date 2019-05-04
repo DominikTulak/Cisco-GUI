@@ -1,9 +1,0 @@
-C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Release\CiscoCLIGuide.exe.config
-C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Release\CiscoCLIGuide.exe
-C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Release\CiscoCLIGuide.pdb
-C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Release\CiscoCLIGuide.Form1.resources
-C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Release\CiscoCLIGuide.Properties.Resources.resources
-C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Release\CiscoCLIGuide.csproj.GenerateResource.cache
-C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Release\CiscoCLIGuide.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Release\CiscoCLIGuide.exe
-C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Release\CiscoCLIGuide.pdb
