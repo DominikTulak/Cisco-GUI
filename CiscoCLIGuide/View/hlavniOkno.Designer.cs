@@ -31,11 +31,14 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.souborToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.komunikaceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
             this.menuButtonNastaveniRS = new System.Windows.Forms.ToolStripMenuItem();
             this.menuButtonNastaveniLog = new System.Windows.Forms.ToolStripMenuItem();
             this.menuButtonNastaveniPlaintext = new System.Windows.Forms.ToolStripMenuItem();
             this.menuButtonNastaveniHesel = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.menuButtonPripojitTelnet = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuButtonPripojitRS232 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuButtonNastaveniTelnetu = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,24 +63,16 @@
             // komunikaceToolStripMenuItem
             // 
             this.komunikaceToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripComboBox1,
             this.menuButtonNastaveniRS,
             this.menuButtonNastaveniLog,
-            this.menuButtonNastaveniPlaintext});
+            this.menuButtonNastaveniPlaintext,
+            this.menuButtonNastaveniTelnetu,
+            this.toolStripMenuItem1,
+            this.menuButtonPripojitTelnet,
+            this.menuButtonPripojitRS232});
             this.komunikaceToolStripMenuItem.Name = "komunikaceToolStripMenuItem";
             this.komunikaceToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.komunikaceToolStripMenuItem.Text = "Komunikace";
-            // 
-            // toolStripComboBox1
-            // 
-            this.toolStripComboBox1.Items.AddRange(new object[] {
-            "Konzole (RS-232)",
-            "Telnet",
-            "Plaintext",
-            "Soubor"});
-            this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
-            this.toolStripComboBox1.Text = "Plaintext";
             // 
             // menuButtonNastaveniRS
             // 
@@ -107,6 +102,29 @@
             this.menuButtonNastaveniHesel.Text = "Hesla";
             this.menuButtonNastaveniHesel.Click += new System.EventHandler(this.menuButtonNastaveniHesel_Click);
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(193, 6);
+            // 
+            // menuButtonPripojitTelnet
+            // 
+            this.menuButtonPripojitTelnet.Name = "menuButtonPripojitTelnet";
+            this.menuButtonPripojitTelnet.Size = new System.Drawing.Size(196, 22);
+            this.menuButtonPripojitTelnet.Text = "Připojit - telnet";
+            // 
+            // menuButtonPripojitRS232
+            // 
+            this.menuButtonPripojitRS232.Name = "menuButtonPripojitRS232";
+            this.menuButtonPripojitRS232.Size = new System.Drawing.Size(196, 22);
+            this.menuButtonPripojitRS232.Text = "Připojit - RS-232";
+            // 
+            // menuButtonNastaveniTelnetu
+            // 
+            this.menuButtonNastaveniTelnetu.Name = "menuButtonNastaveniTelnetu";
+            this.menuButtonNastaveniTelnetu.Size = new System.Drawing.Size(196, 22);
+            this.menuButtonNastaveniTelnetu.Text = "Nastavení telnetu";
+            // 
             // hlavniOkno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -128,10 +146,13 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem souborToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem komunikaceToolStripMenuItem;
-        private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
         private System.Windows.Forms.ToolStripMenuItem menuButtonNastaveniRS;
         private System.Windows.Forms.ToolStripMenuItem menuButtonNastaveniLog;
         private System.Windows.Forms.ToolStripMenuItem menuButtonNastaveniPlaintext;
         private System.Windows.Forms.ToolStripMenuItem menuButtonNastaveniHesel;
+        private System.Windows.Forms.ToolStripMenuItem menuButtonNastaveniTelnetu;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem menuButtonPripojitTelnet;
+        private System.Windows.Forms.ToolStripMenuItem menuButtonPripojitRS232;
     }
 }

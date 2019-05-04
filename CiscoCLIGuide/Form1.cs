@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 using PrimS.Telnet;
+using CiscoCLIGuide.View;
 
 namespace CiscoCLIGuide
 {
@@ -39,6 +40,12 @@ namespace CiscoCLIGuide
                 (sender as TextBox).Text = "";
                 tn();
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            oknoNastaveniTelnetu ot = new oknoNastaveniTelnetu();
+            ot.ShowDialog();
         }
     }
 }
