@@ -7,14 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CiscoCLIGuide.Model;
+using PrimS.Telnet;
 
 namespace CiscoCLIGuide.View
 {
     public partial class oknoKonzole : Form
     {
+        Client client;
+        public async Task Read()
+        {
+            tbVystup.Text += "\n" + await client.ReadAsync();
+        }
         public oknoKonzole()
         {
             InitializeComponent();
+            client = new Client("tulak.host", 52556, new System.Threading.CancellationToken());
+            Read();
         }
 
         private void tbVystup_TextChanged(object sender, EventArgs e)
@@ -51,8 +60,9 @@ namespace CiscoCLIGuide.View
         {
             if (e.KeyChar == (char)Keys.Return)
             {
-                tbVystup.Text +=((sender as TextBox).Text + Environment.NewLine);
+                client.WriteLine((sender as TextBox).Text);
                 (sender as TextBox).Text = "";
+                Read();
             }
         }
     }

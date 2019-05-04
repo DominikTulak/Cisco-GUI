@@ -23,7 +23,7 @@ namespace CiscoCLIGuide.Model
         }
         public void WriteLine(string command)
         {
-            telnet.Write(command);
+            telnet.WriteLine(command);
         }
         private async Task read()
         {
