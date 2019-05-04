@@ -47,11 +47,7 @@ namespace CiscoCLIGuide
 
         private void Form1_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            oknoNastaveniTelnetu ot = new oknoNastaveniTelnetu();
-=======
             oknoNastaveniRouterInterfacu ot = new oknoNastaveniRouterInterfacu();
->>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
             ot.ShowDialog();
         }
     }
