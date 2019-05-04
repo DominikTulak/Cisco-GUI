@@ -54,6 +54,10 @@
             // 
             // comboBoxDruhIf
             // 
+<<<<<<< HEAD
+=======
+            this.comboBoxDruhIf.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
             this.comboBoxDruhIf.FormattingEnabled = true;
             this.comboBoxDruhIf.Items.AddRange(new object[] {
             "FastEthernet",
@@ -63,7 +67,10 @@
             this.comboBoxDruhIf.Name = "comboBoxDruhIf";
             this.comboBoxDruhIf.Size = new System.Drawing.Size(121, 21);
             this.comboBoxDruhIf.TabIndex = 1;
+<<<<<<< HEAD
             this.comboBoxDruhIf.Text = "FastEthernet";
+=======
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
             // 
             // label2
             // 
@@ -155,6 +162,10 @@
             this.buttonUlozit.TabIndex = 12;
             this.buttonUlozit.Text = "Uložit";
             this.buttonUlozit.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
+            this.buttonUlozit.Click += new System.EventHandler(this.buttonUlozit_Click);
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
             // 
             // oknoNastaveniRouterInterfacu
             // 

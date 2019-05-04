@@ -61,11 +61,18 @@
     <Compile Include="Model\CiscoLogin.cs" />
     <Compile Include="Model\Hesla.cs" />
     <Compile Include="Model\Logovani.cs" />
+<<<<<<< HEAD
     <Compile Include="Model\RS232.cs" />
 <<<<<<< HEAD
     <Compile Include="Model\Telnet.cs" />
 =======
 >>>>>>> 7c82fa3ecae0703ecf5d0a7902dd3f17da23746c
+=======
+    <Compile Include="Model\NastaveniStroju\KontrolaMasky.cs" />
+    <Compile Include="Model\NastaveniStroju\RouterInterface.cs" />
+    <Compile Include="Model\RS232.cs" />
+    <Compile Include="Model\TelnetNastaveni.cs" />
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
     <Compile Include="Model\TelnetTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +83,7 @@
       <DependentUpon>hlavniOkno.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="View\oknoKonzole.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +92,8 @@
     </Compile>
 =======
 >>>>>>> 7c82fa3ecae0703ecf5d0a7902dd3f17da23746c
+=======
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
     <Compile Include="View\oknoNastaveniHesla.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,14 +113,20 @@
       <DependentUpon>oknoNastaveniPlaintext.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
     <Compile Include="View\NastaveniStroju\oknoNastaveniRouterInterfacu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\NastaveniStroju\oknoNastaveniRouterInterfacu.Designer.cs">
       <DependentUpon>oknoNastaveniRouterInterfacu.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
 >>>>>>> 7c82fa3ecae0703ecf5d0a7902dd3f17da23746c
+=======
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
     <Compile Include="View\oknoNastaveniRS232.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,14 +134,20 @@
       <DependentUpon>oknoNastaveniRS232.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
     <Compile Include="View\oknoNastaveniTelnetu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\oknoNastaveniTelnetu.Designer.cs">
       <DependentUpon>oknoNastaveniTelnetu.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
 >>>>>>> 7c82fa3ecae0703ecf5d0a7902dd3f17da23746c
+=======
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,11 +164,14 @@
       <DependentUpon>hlavniOkno.cs</DependentUpon>
     </EmbeddedResource>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <EmbeddedResource Include="View\oknoKonzole.resx">
       <DependentUpon>oknoKonzole.cs</DependentUpon>
     </EmbeddedResource>
 =======
 >>>>>>> 7c82fa3ecae0703ecf5d0a7902dd3f17da23746c
+=======
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
     <EmbeddedResource Include="View\oknoNastaveniHesla.resx">
       <DependentUpon>oknoNastaveniHesla.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,10 +179,13 @@
       <DependentUpon>oknoNastaveniLogSouboru.cs</DependentUpon>
     </EmbeddedResource>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <EmbeddedResource Include="View\oknoNastaveniRS232.resx">
       <DependentUpon>oknoNastaveniRS232.cs</DependentUpon>
     </EmbeddedResource>
 =======
+=======
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
     <EmbeddedResource Include="View\NastaveniStroju\oknoNastaveniRouterInterfacu.resx">
       <DependentUpon>oknoNastaveniRouterInterfacu.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,7 +195,10 @@
     <EmbeddedResource Include="View\oknoNastaveniTelnetu.resx">
       <DependentUpon>oknoNastaveniTelnetu.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
 >>>>>>> 7c82fa3ecae0703ecf5d0a7902dd3f17da23746c
+=======
+>>>>>>> 526b27403fd352e30009fb2c2d07eb2efb3b880b
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
