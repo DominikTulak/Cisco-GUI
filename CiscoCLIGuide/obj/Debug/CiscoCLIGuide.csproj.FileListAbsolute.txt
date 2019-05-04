@@ -13,3 +13,8 @@ C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\LiteGuard.xml
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\bin\Debug\PrimS.Telnet.NetStandard.xml
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csprojAssemblyReference.cache
 C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.csproj.CopyComplete
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.hlavniOkno.resources
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.oknoNastaveniHesla.resources
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.oknoNastaveniLogSouboru.resources
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.oknoNastaveniRS232.resources
+C:\Users\Admin\Cisco-GUI\CiscoCLIGuide\obj\Debug\CiscoCLIGuide.View.oknoKonzole.resources

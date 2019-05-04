@@ -59,9 +59,49 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\CiscoLogin.cs" />
+    <Compile Include="Model\Hesla.cs" />
+    <Compile Include="Model\Logovani.cs" />
+    <Compile Include="Model\RS232.cs" />
+    <Compile Include="Model\Telnet.cs" />
     <Compile Include="Model\TelnetTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\hlavniOkno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\hlavniOkno.Designer.cs">
+      <DependentUpon>hlavniOkno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\oknoKonzole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\oknoKonzole.Designer.cs">
+      <DependentUpon>oknoKonzole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\oknoNastaveniHesla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\oknoNastaveniHesla.Designer.cs">
+      <DependentUpon>oknoNastaveniHesla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\oknoNastaveniLogSouboru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\oknoNastaveniLogSouboru.Designer.cs">
+      <DependentUpon>oknoNastaveniLogSouboru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\oknoNastaveniPlaintext.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\oknoNastaveniPlaintext.Designer.cs">
+      <DependentUpon>oknoNastaveniPlaintext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\oknoNastaveniRS232.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\oknoNastaveniRS232.Designer.cs">
+      <DependentUpon>oknoNastaveniRS232.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +114,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\hlavniOkno.resx">
+      <DependentUpon>hlavniOkno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\oknoKonzole.resx">
+      <DependentUpon>oknoKonzole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\oknoNastaveniHesla.resx">
+      <DependentUpon>oknoNastaveniHesla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\oknoNastaveniLogSouboru.resx">
+      <DependentUpon>oknoNastaveniLogSouboru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\oknoNastaveniRS232.resx">
+      <DependentUpon>oknoNastaveniRS232.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

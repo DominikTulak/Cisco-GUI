@@ -26,6 +26,8 @@ namespace CiscoCLIGuide
         public Form1()
         {
             InitializeComponent();
+            View.oknoKonzole ok = new View.oknoKonzole();
+            ok.Show();
             tl = new Client("tulak.host", 52556, new System.Threading.CancellationToken());
             tn();
             // client.WriteLine("show statistic wan2");
@@ -36,6 +38,7 @@ namespace CiscoCLIGuide
             if (e.KeyChar == (char)Keys.Return)
             {
                 tl.WriteLine((sender as TextBox).Text);
+                
                 (sender as TextBox).Text = "";
                 tn();
             }
