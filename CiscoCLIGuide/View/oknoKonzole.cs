@@ -30,6 +30,8 @@ namespace CiscoCLIGuide.View
         {
             tbVystup.SelectionStart = tbVystup.Text.Length;
             tbVystup.ScrollToCaret();
+
+
         }
 
         private void cbDarkMode_CheckedChanged(object sender, EventArgs e)
@@ -56,13 +58,18 @@ namespace CiscoCLIGuide.View
             }
         }
 
-        private void tbVstup_KeyPress(object sender, KeyPressEventArgs e)
+        private void tbVstup_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyChar == (char)Keys.Return)
+            if (e.KeyCode == Keys.Enter)
             {
                 client.WriteLine((sender as TextBox).Text);
                 (sender as TextBox).Text = "";
                 Read();
+                tbVystup.Text += ((sender as TextBox).Text + Environment.NewLine);
+                (sender as TextBox).Text = "";
+
+                e.Handled = true;
+                e.SuppressKeyPress = true;
             }
         }
     }

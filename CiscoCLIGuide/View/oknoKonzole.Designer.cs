@@ -53,7 +53,7 @@
             this.tbVstup.Name = "tbVstup";
             this.tbVstup.Size = new System.Drawing.Size(800, 20);
             this.tbVstup.TabIndex = 1;
-            this.tbVstup.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbVstup_KeyPress);
+            this.tbVstup.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbVstup_KeyDown);
             // 
             // cbDarkMode
             // 
