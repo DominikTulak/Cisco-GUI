@@ -30,8 +30,6 @@ namespace CiscoCLIGuide.View
         {
             tbVystup.SelectionStart = tbVystup.Text.Length;
             tbVystup.ScrollToCaret();
-
-
         }
 
         private void cbDarkMode_CheckedChanged(object sender, EventArgs e)
