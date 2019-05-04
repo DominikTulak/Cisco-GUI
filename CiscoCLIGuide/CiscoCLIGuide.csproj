@@ -61,7 +61,10 @@
     <Compile Include="Model\CiscoLogin.cs" />
     <Compile Include="Model\Hesla.cs" />
     <Compile Include="Model\Logovani.cs" />
+    <Compile Include="Model\NastaveniStroju\KontrolaMasky.cs" />
+    <Compile Include="Model\NastaveniStroju\RouterInterface.cs" />
     <Compile Include="Model\RS232.cs" />
+    <Compile Include="Model\TelnetNastaveni.cs" />
     <Compile Include="Model\TelnetTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

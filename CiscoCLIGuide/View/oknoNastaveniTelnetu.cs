@@ -39,7 +39,7 @@ namespace CiscoCLIGuide.View
             }
         }
 
-        //Načtení okna (převyplnění adresy)
+        //Načtení okna (předvyplnění adresy)
         private void oknoNastaveniTelnetu_Load(object sender, EventArgs e)
         {
             textBoxIPAdresa.Text = Convert.ToString(Dns.GetHostByName(Dns.GetHostName()).AddressList[0]);
